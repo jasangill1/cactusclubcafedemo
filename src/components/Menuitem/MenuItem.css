@@ -1,0 +1,49 @@
+.MenuItem.css
+
+.app__menuitem {
+  display: flex;
+  flex-direction: column;
+  background-color: #1f1f1f;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.app__menuitem-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app__menuitem-name {
+  font-weight: bold;
+}
+
+.p__cormorant {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.app__menuitem-dash {
+  flex-grow: 1;
+  height: 2px;
+  background-color: #DCCA87;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.app__menuitem-price {
+  font-weight: bold;
+}
+
+.app__menuitem-sub {
+  margin-top: 0.5rem;
+}
+
+.p__opensans {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9rem;
+  margin: 0;
+}

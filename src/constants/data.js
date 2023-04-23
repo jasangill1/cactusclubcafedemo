@@ -1,58 +1,58 @@
 import images from './images';
 
-const wines = [
+const spirits = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'Johnnie Walker Black Label',
+    price: '$80',
+    tags: 'UK | 750 ml',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'Macallan 12 Year Old',
+    price: '$110',
+    tags: 'UK | 750 ml',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
+    title: 'Grey Goose Vodka',
+    price: '$70',
     tags: 'FR | 750 ml',
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    title: 'Hendrick\'s Gin',
+    price: '$85',
+    tags: 'UK | 750 ml',
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: 'Patrón Silver Tequila',
+    price: '$95',
+    tags: 'MX | 750 ml',
   },
 ];
 
-const cocktails = [
+const beers = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'Stella Artois',
+    price: '$8',
+    tags: 'BE | 330 ml',
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    title: 'Heineken',
+    price: '$7',
+    tags: 'NL | 330 ml',
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    title: 'Budweiser',
+    price: '$6',
+    tags: 'US | 330 ml',
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    title: 'Guinness',
+    price: '$8',
+    tags: 'IE | 440 ml',
   },
   {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    title: 'Corona Extra',
+    price: '$7',
+    tags: 'MX | 330 ml',
   },
 ];
 
@@ -79,4 +79,4 @@ const awards = [
   },
 ];
 
-export default { wines, cocktails, awards };
+export default { beers, spirits, awards };
