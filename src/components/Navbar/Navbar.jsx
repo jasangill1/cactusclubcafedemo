@@ -12,13 +12,13 @@ const Navbar = () => {
       <div className="app__navbar__logo">
         <img src={images.gericht} alt="logo" />
       </div>
-      <ul className="app__navbar-links">
+      <ul className="app__navbar-links headtext__cormorant">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
-        <li><a href="#awards">Awards</a></li>
+        <li><a href="#menu">Menu</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-      <div className="app__navbar__login">
+      <div className="app__navbar__login headtext__cormorant">
         <a href="#login">Login / Register</a>
         <a href="/" className="book-table">Book Table</a>
       </div>
@@ -31,7 +31,7 @@ const Navbar = () => {
             <ul className="app__navbar-smallscreen-links">
               <li><a href="#home">Home</a></li>
               <li><a href="#about">About</a></li>
-              <li><a href="#awards">Awards</a></li>
+              <li><a href="#menu">Menu</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
           </div>
