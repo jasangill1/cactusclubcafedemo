@@ -14,16 +14,20 @@ const AboutUs = () => (
         <h1 className="headtext__cormorant">About Us</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
         <p className="p__opensans">
-        Cactus Club Cafe's culinary vision is led by the Test Kitchen, a team of world-class chefs.
-         The chefs in the Test Kitchen are always looking for inspiration to make food people love, and they work relentlessly to create recipes that will be cherished by our guests, using fresh, local ingredients.
+        Our culinary vision is spearheaded by the Test Kitchen, a group of distinguished, 
+        world-class chefs. Constantly seeking inspiration to craft dishes that captivate our guests, 
+        these chefs tirelessly develop recipes that resonate with our patrons, 
+        always prioritizing the use of fresh, local ingredients.
         </p>   
       </div>
       <div className="app__aboutus-content_history">
         <h1 className="headtext__cormorant">Our History</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
         <p className="p__opensans">
-        Born on the West Coast and growing across Canada, Cactus Club Cafe offers the best in global cuisine using local, fresh ingredients served in a vibrant, contemporary setting.
-        Our service is attentive, warm and unpretentious. Our people are passionate about delivering food and experiences that will keep our guests coming back again and again.
+        Originating from the West Coast and expanding throughout Canada, our establishment presents exceptional
+         global cuisine crafted with locally-sourced, fresh ingredients, all served in a lively, modern atmosphere. 
+        Our attentive and friendly service is rooted in a genuine passion for providing extraordinary dining experiences 
+        that consistently delight our guests and keep them returning for more.
         </p>
       </div>
     </div>

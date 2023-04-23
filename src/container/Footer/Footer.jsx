@@ -8,8 +8,11 @@ const Footer = () => {
         <div className="footer__column">
           <h4>About Us</h4>
           <p className='p__opensans'>
-            We are a modern company providing top-notch services and solutions
-            to our clients. Our goal is to exceed your expectations.
+          Originating from the West Coast and expanding throughout Canada,
+           our establishment presents exceptional global cuisine crafted with locally-sourced, 
+          fresh ingredients, all served in a lively, modern atmosphere. 
+          Our attentive and friendly service is rooted in a genuine passion for providing extraordinary 
+          dining experiences that consistently delight our guests and keep them returning for more.
           </p>
         </div>
         <div className="footer__column ">
