@@ -1,0 +1,72 @@
+.app__aboutus {
+    position: relative;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .app__aboutus-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+  }
+  
+  .app__aboutus-content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+  }
+  
+  .app__aboutus-content_about,
+  .app__aboutus-content_history {
+    width: 45%;
+    padding: 2rem;
+  }
+  
+  .headtext__cormorant {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .spoon__img {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .p__opensans {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    color: #d4af37;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+  }
+  
+  .custom__button {
+    background-color: transparent;
+    color: #d4af37;
+    border: 2px solid #d4af37;
+    padding: 0.5rem 1.5rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-transform: uppercase;
+  }
+  
+  .custom__button:hover {
+    background-color: #d4af37;
+    color: #000;
+  }
+  
