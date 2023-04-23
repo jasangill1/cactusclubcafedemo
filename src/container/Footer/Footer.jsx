@@ -10,9 +10,7 @@ const Footer = () => {
           <p className='p__opensans'>
           Originating from the West Coast and expanding throughout Canada,
            our establishment presents exceptional global cuisine crafted with locally-sourced, 
-          fresh ingredients, all served in a lively, modern atmosphere. 
-          Our attentive and friendly service is rooted in a genuine passion for providing extraordinary 
-          dining experiences that consistently delight our guests and keep them returning for more.
+          fresh ingredients.
           </p>
         </div>
         <div className="footer__column ">
